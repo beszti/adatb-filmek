@@ -1,0 +1,87 @@
+header{
+	background-color: #1E90FF;
+	font-family: "Georgia";
+}
+.data-dropdown{
+	padding: 0px;
+	margin: 0px;
+}
+.data-margin-dropdown{
+	padding: 3%;
+	margin-top: 3%;
+	margin-bottom: 0px;
+}
+footer{
+	background-color: #161e2c;
+	clear: both;
+	position: relative;
+	z-index: 10;
+	margin-top: 3px;
+}
+ul{
+	background-color: #1E90FF;
+	font-family: "Georgia";
+	color: #fff;
+}
+li{
+	color: #191970;
+	background-color: #1E90FF;
+	font-family: "Georgia";
+	color: #fff;
+}
+a{
+	color: #191970;
+	background-color: #1E90FF;
+	font-family: "Georgia";
+	color: #fff;
+}
+.button1{
+	font-family: "Georgia";
+	color: #fff;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.button1_2{
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.input-type{
+	font-size: 12px;
+	height: 30%;
+	padding: 2%;
+}
+.vertical{
+	border-left: thick solid #005e91;
+}
+.img-data{
+	max-width: 113.217;
+	max-height: 162.367;
+}
+body{
+	background: -moz-linear-gradient(135deg,  #005e91 0%, #002a53 100%);
+	background: -webkit-linear-gradient(135deg,  #005e91 0%,#002a53 100%);
+	background: -o-linear-gradient(135deg,  #005e91 0%,#002a53 100%);
+	background: -ms-linear-gradient(135deg,  #005e91 0%,#002a53 100%); 
+	font-family: "Georgia";
+	color: #fff;
+}
+.data-title-h5{
+	height:18px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tumbnail-plus{
+	margin-top: 10px;
+}
+.urlap-div-margin{
+	text-align: center;
+	margin-top: 3%;
+}
+.mufaj-width{
+	width: 150px;
+	height: 36px;
+}

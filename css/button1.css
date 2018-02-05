@@ -1,0 +1,21 @@
+.button1{
+	font-family: "Georgia";
+	color: #fff;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.button1_2{
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.input-type{
+	font-size: 12px;
+	height: 30%;
+	padding: 2%;
+}
+.vertical{
+	border-left: thick solid #005e91;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1">
+		<title>Beszti ImDB</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/custom.css" rel="stylesheet"/>
+		<link rel="ico" href="img/BG.ico">
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/button1.js" ></script>
+
+	</head>
+	<header>
+		<div class="row">
+			<div class="col-xs-12 col-md-1 button1_2">
+				<img src="img/beszti's_IMDB.png" class="img-responsive" alt="Responsive image" style="margin: auto;" />
+			</div>
+			<div class="col-xs-12 col-md-3"></div>
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="button1 dropdown-toggle">
+						<h5><a href="#" class="button1" id="kezdolap">Kezdőlap</a></h5>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="dropdown">
+					<div class="button1 dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<h5><a href="#" class="button1">Filmek<span class="caret"></span></a></h5>
+					</div>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#" id="film_ossz">Összes</a></li>
+						<li><a href="#" id="film_2016">2016</a></li>
+						<li><a href="#" id="film_akcio">Akció</a></li>
+						<li><a href="#" id="film_horror">Horror</a></li>
+						<li><a href="#" id="film_vig">Vígjáték</a></li>
+						<li><a href="#" id="film_porno">Felnőtt</a></li>
+						<li><a href="#" id="film_kaland">Kaland</a></li>
+						<li><a href="#" id="film_scifi">Sci-Fi</a></li>
+						<li><a href="#" id="film_thriller">Thriller</a></li>
+						<li><a href="#" id="film_drama">Dráma</a></li>
+						<li><a href="#" id="film_krimi">Krimi</a></li>
+						<li><a href="#" id="film_fanta">Fantasztikus</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="dropdown">
+					<div class="button1 dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<h5><a href="#" class="button1">Színészek<span class="caret"></span></a></h5>
+					</div>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<li><a href="#" id="szin_ossz">Összes</a></li>
+						<li><a href="#" id="szin_ffi">Férfi</a></li>
+						<li><a href="#" id="szin_noi">Női</a></li>
+					</ul> 
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="dropdown">
+					<div class="button1 dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<h5><a href="#" class="button1">Stúdiók<span class="caret"></span></a></h5>
+					</div>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+						<li><a href="#" id="studio_ossz">Összes</a></li>
+						<li><a href="#" id="studio_LA">Los Angeles</a></li>
+						<li><a href="#" id="studio_NY">New York</a></li>
+						<li><a href="#" id="studio_Mel">Melbourne</a></li>
+						<li><a href="#" id="studio_Dub">Dublin</a></li>
+						<li><a href="#" id="studio_Par">Párizs</a></li>
+						<li><a href="#" id="studio_Bp">Budapest</a></li>
+						<li><a href="#" id="studio_Lon">London</a></li>
+						<li><a href="#" id="studio_Tun">Tunisz</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="dropdown">
+					<div class="button1 dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<h5><a href="#" class="button1">Szereplés<span class="caret"></span></a></h5>
+					</div>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+						<li><a href="#" id="szerep_ossz">Összes szerep</a></li>
+						<li><a href="#" id="szerep_fo">Fő szerepek</a></li>
+						<li><a href="#" id="szerep_mell">Mellék szerepek</a></li>
+					</ul> 
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-1 button1_2">
+				<div class="dropdown">
+					<div class="button1 dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<h5><a href="#" class="button1">Nem Tri.-k<span class="caret"></span></a></h5>
+					</div>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+						<li><a href="#" id="nem_tri1">1.</a></li>
+						<li><a href="#" id="nem_tri2">2.</a></li>
+						<li><a href="#" id="nem_tri3">3.</a></li>
+						<li><a href="#" id="nem_tri4">4.</a></li>
+					</ul> 
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-2 button1_2">
+			<form class="navbar-form navbar-left button1_2" action="php/search.php" method="POST" style="margin:0px; padding:0px;">
+					<div class="form-group" style="margin:0px; padding:0px;">
+						<div class="row">
+							<div class="col-xs-12 col-md-7 vertical" style="margin-top: 2%;">
+								<input type="text" name="id" class="form-control input-type" placeholder="Search for ID">
+							</div>
+							<div class="col-xs-12 col-md-5 button1_2 ">
+								<h5><input value="Submit" id="submit" href="#" class="button1"></h5>
+							</div>
+						</div>
+					</div>	
+			</form>
+			</div>
+		</div>
+	</header>
+	<body>
+		<script src="js/json.js" ></script>
+		<div class="row">
+			<div class="col-xs-6 col-md-1"></div>
+			<div class="col-xs-12 col-sm-6 col-md-9">
+				<div id="load" class="row">
+					
+				</div>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="col-xs-12 col-sm-6 col-md-2" id="pager"></div>
+		</div>
+	</body>
+	<footer><p>Copyright &copy; 2016 Beszti</p>
+		<div class="row">
+			<div class="col-xs-4 col-md-4">
+				
+			</div>
+		</div>
+	</footer>
+</html>

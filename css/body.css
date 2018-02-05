@@ -1,0 +1,17 @@
+body{
+	background: -moz-linear-gradient(135deg,  #005e91 0%, #002a53 100%);
+	background: -webkit-linear-gradient(135deg,  #005e91 0%,#002a53 100%);
+	background: -o-linear-gradient(135deg,  #005e91 0%,#002a53 100%);
+	background: -ms-linear-gradient(135deg,  #005e91 0%,#002a53 100%); 
+	font-family: "Georgia";
+	color: #fff;
+}
+.data-title-h5{
+	height:18px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tumbnail-plus{
+	margin-top: 10px;
+}
