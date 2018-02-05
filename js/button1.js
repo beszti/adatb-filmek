@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('.button1').css("border-radius","0px");
+	$('.button1').hover(
+		function(){
+			$(this).css("color","#191970");
+		},
+		function(){
+			$(this).css("color","#fff");
+	});
+});
